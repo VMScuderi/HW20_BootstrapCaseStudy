@@ -145,7 +145,7 @@ font-size-adjust: inherit;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  row-gap: 0%;
+  row-gap: 0% !important;
     width: 66%;
     height: 95%;
     box-shadow: 0px 0px 5px 5px #14EC11;
@@ -168,13 +168,17 @@ font-size-adjust: inherit;
   width: 180vw;
 }
 .tech-slideshow .child {
-  animation: moveSlideshow 30s linear alternate-reverse infinite;
+  animation: moveSlideshow 40s linear infinite;
 }
 
 @keyframes moveSlideshow {
   50% { 
     transform: translateX(-80%);  
   }
+}
+
+.tech-slideshow .child:hover{
+  animation: moveSlideshow 300s linear reverse;
 }
 
 ::-webkit-scrollbar {
