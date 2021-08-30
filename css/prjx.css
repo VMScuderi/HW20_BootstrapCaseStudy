@@ -1,7 +1,8 @@
 *{
   margin: 0;
   list-style: none;
-  text-decoration: none;
+  text-decoration: none !important;
+  padding: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -35,15 +36,17 @@ filter: brightness(1.2);
   width: 40%;
   overflow-x: hidden;
 }
+
 .phonesContainer{
  visibility: hidden;
 }
+
 .mouseContainer{
 visibility: hidden;
 }
+
 .boardContainer{
   position: absolute;
-  border-radius: 1000%;
   max-width: 40vw;
 }
 
@@ -51,15 +54,7 @@ visibility: hidden;
   width: 100vw;
   height: 10%;
 }
-.grid{
-  visibility: hidden;
-}
-.gridChild{
-  visibility: hidden;
-}
-.slide{
-  visibility: hidden;
-}
+
 .intro{
   position: relative;
 height: 50%;
@@ -73,8 +68,6 @@ font-size-adjust: inherit;
   max-height: 100%;
 }
 }
-
-  
 
 .foregrd {
     position: absolute;
@@ -123,7 +116,8 @@ font-size-adjust: inherit;
                         
                         .name{
                           float: left;
-                          font-size: x-large;
+                          font-size: xxx-large;
+                          font-weight: lighter;
                           color: rgb(120, 120, 120);
                           vertical-align: middle;
                           font-family: ds-digital;
@@ -145,7 +139,7 @@ font-size-adjust: inherit;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  row-gap: 0% !important;
+  row-gap: 0%;
     width: 66%;
     height: 95%;
     box-shadow: 0px 0px 5px 5px #14EC11;
@@ -168,7 +162,7 @@ font-size-adjust: inherit;
   width: 180vw;
 }
 .tech-slideshow .child {
-  animation: moveSlideshow 40s linear infinite;
+  animation: moveSlideshow 50s linear infinite;
 }
 
 @keyframes moveSlideshow {
@@ -178,7 +172,7 @@ font-size-adjust: inherit;
 }
 
 .tech-slideshow .child:hover{
-  animation: moveSlideshow 300s linear reverse;
+animation-delay:inherit;
 }
 
 ::-webkit-scrollbar {
@@ -227,26 +221,27 @@ font-size-adjust: inherit;
   filter: brightness(0.7);
 }
 
-    .boardContainer {
-        width: 60%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 2fr;
-        grid-template-rows: 4% 40% 40% 0%;
-        gap: 5% 1.5%;
-        grid-auto-flow: row;
-        grid-template-areas:
-          ". . . . . ."
-          "buffer faxPad sklzPad prjxPad mailPad volFader"
-          "buffer rsmePad lnkdPad githPad behcPad volFader"
-          ". . . . . .";
-          background-image: url("../images/board1.png");
-          filter:saturate(1.5);
-          background-size: 76%;
-          background-repeat: no-repeat;
-          background-position: center;
-          background-position-y: -0.5%;
-      }
+.boardContainer {
+  line-height: 1;
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 2fr;
+  grid-template-rows: 4% 40% 40% 0%;
+  gap: 5% 1.5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . ."
+    "buffer faxPad sklzPad prjxPad mailPad volFader"
+    "buffer rsmePad lnkdPad githPad behcPad volFader"
+    ". . . . . .";
+    background-image: url("../images/board1.png");
+    filter:saturate(1.5);
+    background-size: 76%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -0.5%;
+}
       
       .volFader { grid-area: volFader; 
     }
@@ -259,7 +254,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%; }
@@ -272,7 +267,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%; }
@@ -284,7 +279,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%; }
@@ -297,7 +292,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%;}
@@ -310,7 +305,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%;}
@@ -323,7 +318,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%; }
@@ -336,7 +331,7 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%; }
@@ -349,14 +344,18 @@ font-size-adjust: inherit;
         height: 100%;
         width: 100%;
         font-family: ds-digital;
-        font-size: x-large;
+        font-size: large;
         font-weight: bold;
         color:#c4c4c4;
         padding-left: 3%;}
       
       .buffer { grid-area: buffer; }
   
-
+      a:hover {
+        color: whitesmoke; 
+        text-decoration:none;  
+        font-size: x-large;
+    }    
   
 
         .bottom-right {
@@ -371,17 +370,15 @@ font-size-adjust: inherit;
             z-index: 200;
           }
 
-          
-
           #delayedText{
             position: absolute;
             top: 40%;
             right: 16%;
             transform: translate(-50%, -50%);
-            text-align: right;
+            text-align: center;
             vertical-align: top;
             color: whitesmoke;
-            font-family: poppins, sans-serif;
+            font-family: monospace;
             font-size: medium;
             font-weight: normal;
             letter-spacing: 1px;

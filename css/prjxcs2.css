@@ -238,112 +238,116 @@ background-color: #010101;
       
       .volFader { grid-area: volFader; 
     }
-      
-      .mailPad { grid-area: mailPad;            
-        box-shadow: 0px 1px 2px 2px #EC4915;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%; }
-      
-      .behcPad { grid-area: behcPad;
-        box-shadow: 0px 1px 2px 2px #FCFF55;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%; }
-      
-      .prjxPad { grid-area: prjxPad;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%; }
-      
-      .lnkdPad { grid-area: lnkdPad; 
-        box-shadow: 0px 1px 2px 2px #0600FF;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%;}
-      
-      .sklzPad { grid-area: sklzPad; 
-        box-shadow: 0px 1px 2px 2px #00FFE1;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%;}
-      
-      .githPad { grid-area: githPad;
-        box-shadow: 0px 1px 2px 2px #BD00FF;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%; }
-      
-      .rsmePad { grid-area: rsmePad;
-        box-shadow: 0px 1px 2px 2px #FF0035;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%; }
-      
-      .faxPad { grid-area: faxPad; 
-        box-shadow: 0px 1px 2px 2px #FF00C7;
-        background-image: url("../images/blankPad.png"); 
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 100%;
-        width: 100%;
-        font-family: ds-digital;
-        font-size: x-large;
-        font-weight: bold;
-        color:#c4c4c4;
-        padding-left: 3%;}
-      
-      .buffer { grid-area: buffer; }
-  
+    .mailPad { grid-area: mailPad;            
+      box-shadow: 0px 1px 2px 2px #EC4915;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%; }
+    
+    .behcPad { grid-area: behcPad;
+      box-shadow: 0px 1px 2px 2px #FCFF55;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%; }
+    
+    .prjxPad { grid-area: prjxPad;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%; }
+    
+    .lnkdPad { grid-area: lnkdPad; 
+      box-shadow: 0px 1px 2px 2px #0600FF;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%;}
+    
+    .sklzPad { grid-area: sklzPad; 
+      box-shadow: 0px 1px 2px 2px #00FFE1;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%;}
+    
+    .githPad { grid-area: githPad;
+      box-shadow: 0px 1px 2px 2px #BD00FF;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%; }
+    
+    .rsmePad { grid-area: rsmePad;
+      box-shadow: 0px 1px 2px 2px #FF0035;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%; }
+    
+    .faxPad { grid-area: faxPad; 
+      box-shadow: 0px 1px 2px 2px #FF00C7;
+      background-image: url("../images/blankPad.png"); 
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      font-family: ds-digital;
+      font-size: large;
+      font-weight: bold;
+      color:#c4c4c4;
+      padding-left: 3%;}
+    
+    .buffer { grid-area: buffer; }
+
+    a:hover {
+      color: whitesmoke; 
+      text-decoration:none;  
+      font-size: x-large;
+  }    
         .bottom-right {
             position: absolute;
             bottom: 0%;
