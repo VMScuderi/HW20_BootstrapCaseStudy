@@ -110,7 +110,7 @@ font-size-adjust: inherit;
                         }
 
                         .controls{
-                          opacity: 0.4;
+                          opacity: 0.8;
                           height: 2.4vh;
                           width: 100%;
                         }
@@ -124,7 +124,7 @@ font-size-adjust: inherit;
                           float: left;
                           font-size: xxx-large;
                           font-weight: lighter;
-                          color: rgb(120, 120, 120);
+                          color: rgb(180, 180, 180);
                           vertical-align: middle;
                           font-family: ds-digital;
                           letter-spacing: 1px;

@@ -112,7 +112,7 @@
                         }
                         
                         .controls{
-                          opacity: 0.4;
+                          opacity: 0.8;
                           height: 2.4vh;
                           width: 100%;
                         }
@@ -126,7 +126,7 @@
                           float: left;
                           font-size: xxx-large;
                           font-weight: lighter;
-                          color: rgb(120, 120, 120);
+                          color: rgb(180, 180, 180);
                           vertical-align: middle;
                           font-family: ds-digital;
                           letter-spacing: 1px;
@@ -176,7 +176,6 @@ overflow:hidden;
   color: goldenrod;
   font-weight: bolder;
   flex-direction: row;
-  word-spacing: 100%;
   background-color: transparent;
   text-align: center;
   line-height: 1;

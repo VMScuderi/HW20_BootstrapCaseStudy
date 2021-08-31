@@ -101,7 +101,7 @@ padding-top: 0.6%;
 }
 
 .controls{
-  opacity: 0.4;
+  opacity: 0.8;
   height: 2.4vh;
   width: 50vw;
 }
@@ -114,7 +114,7 @@ padding-top: 0.6%;
 .name{
   float: left;
   font-size: x-large;
-  color: rgb(120, 120, 120);
+  color: rgb(180, 180, 180);
   font-family: ds-digital;
   letter-spacing: 1px;
 }
