@@ -52,15 +52,7 @@
     width: 100vw;
     height: 10%;
   }
-  .grid{
-    visibility: hidden;
-  }
-  .gridChild{
-    visibility: hidden;
-  }
-  .slide{
-    visibility: hidden;
-  }
+
   .intro{
     position: relative;
     height: 50%;
