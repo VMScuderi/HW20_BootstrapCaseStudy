@@ -66,23 +66,6 @@
   background-image:none!important;
     }
   
-    .grid{
-      visibility: hidden;
-    }
-    .gridChild{
-      visibility: hidden;
-    }
-    .slide{
-      visibility: hidden;
-    }
-    .intro{
-  position: relative;
-  height: 50%;
-  width: 100%;
-  overflow-y: hidden;
-  font-size-adjust: inherit;
-    }
-  
     .mailPad{
       max-width: 14vw;
       max-height: 3em;
@@ -133,8 +116,6 @@
     margin-top: auto;
   }
   }
-  
-
 .foregrd {
     position: absolute;
     float: right;
