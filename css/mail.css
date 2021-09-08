@@ -124,6 +124,9 @@
          bottom: 0%;
                 vertical-align: bottom;
                 z-index: 100;
+                filter: sepia(50%) brightness(200%) saturate(139%) contrast(98%) invert(5%);
+                -webkit-filter: sepia(50%) brightness(200%) saturate(139%) contrast(98%) invert(5%);
+                -moz-filter: sepia(50%) brightness(200%) saturate(139%) contrast(98%) invert(5%);
                     }
 
                     .header{
